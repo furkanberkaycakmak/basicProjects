@@ -13,6 +13,11 @@
 		63EC7D3A273781530023E65E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EC7D38273781530023E65E /* Main.storyboard */; };
 		63EC7D3C273781550023E65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EC7D3B273781550023E65E /* Assets.xcassets */; };
 		63EC7D3F273781550023E65E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EC7D3D273781550023E65E /* LaunchScreen.storyboard */; };
+		63EC7D4B27379AAA0023E65E /* colosseum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63EC7D4627379AAA0023E65E /* colosseum.jpg */; };
+		63EC7D4C27379AAA0023E65E /* tacmahal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63EC7D4727379AAA0023E65E /* tacmahal.jpg */; };
+		63EC7D4D27379AAA0023E65E /* greatwall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63EC7D4827379AAA0023E65E /* greatwall.jpg */; };
+		63EC7D4E27379AAA0023E65E /* kremlin.jpg.webp in Resources */ = {isa = PBXBuildFile; fileRef = 63EC7D4927379AAA0023E65E /* kremlin.jpg.webp */; };
+		63EC7D4F27379AAA0023E65E /* stonehenge.jpg.webp in Resources */ = {isa = PBXBuildFile; fileRef = 63EC7D4A27379AAA0023E65E /* stonehenge.jpg.webp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		63EC7D3B273781550023E65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63EC7D3E273781550023E65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63EC7D40273781550023E65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63EC7D4627379AAA0023E65E /* colosseum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colosseum.jpg; sourceTree = "<group>"; };
+		63EC7D4727379AAA0023E65E /* tacmahal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tacmahal.jpg; sourceTree = "<group>"; };
+		63EC7D4827379AAA0023E65E /* greatwall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greatwall.jpg; sourceTree = "<group>"; };
+		63EC7D4927379AAA0023E65E /* kremlin.jpg.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = kremlin.jpg.webp; sourceTree = "<group>"; };
+		63EC7D4A27379AAA0023E65E /* stonehenge.jpg.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = stonehenge.jpg.webp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				63EC7D34273781530023E65E /* SceneDelegate.swift */,
 				63EC7D36273781530023E65E /* ViewController.swift */,
 				63EC7D38273781530023E65E /* Main.storyboard */,
+				63EC7D4627379AAA0023E65E /* colosseum.jpg */,
+				63EC7D4827379AAA0023E65E /* greatwall.jpg */,
+				63EC7D4927379AAA0023E65E /* kremlin.jpg.webp */,
+				63EC7D4A27379AAA0023E65E /* stonehenge.jpg.webp */,
+				63EC7D4727379AAA0023E65E /* tacmahal.jpg */,
 				63EC7D3B273781550023E65E /* Assets.xcassets */,
 				63EC7D3D273781550023E65E /* LaunchScreen.storyboard */,
 				63EC7D40273781550023E65E /* Info.plist */,
@@ -125,9 +140,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63EC7D4C27379AAA0023E65E /* tacmahal.jpg in Resources */,
 				63EC7D3F273781550023E65E /* LaunchScreen.storyboard in Resources */,
+				63EC7D4E27379AAA0023E65E /* kremlin.jpg.webp in Resources */,
 				63EC7D3C273781550023E65E /* Assets.xcassets in Resources */,
+				63EC7D4B27379AAA0023E65E /* colosseum.jpg in Resources */,
 				63EC7D3A273781530023E65E /* Main.storyboard in Resources */,
+				63EC7D4F27379AAA0023E65E /* stonehenge.jpg.webp in Resources */,
+				63EC7D4D27379AAA0023E65E /* greatwall.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +317,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +346,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
