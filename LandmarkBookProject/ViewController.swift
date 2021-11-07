@@ -46,6 +46,8 @@ class ViewController: UIViewController,UITableViewDelegate, UITableViewDataSourc
             landmarkNames.remove(at: indexPath.row)
             landmarkImages.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.fade)
+            
+            print("gitTry")
         }
     }
     
